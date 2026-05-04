@@ -63,7 +63,12 @@ body {
 @media screem and (min-width:768px){
     .botoes {
         display: flex;
-
     }
-.botao:lest-child
+    .botao:lest-child {
+        border-radius: 40px 0 0 0;
+    }
+    .ativo{
+        background-color: var(--botao-ativo);
+        border-bottom: 4px solid var(--vermelho)
+    }
 }
